@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    font-family: 'Poppins';
+}
+#navbar{
+    display: flex;
+    background-color: rgb(54, 53, 56);
+    width: 100%;
+    min-height: 10px;
+
+}
+#navbar a{
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 15px;
+    color: whitesmoke;
+    font-size: 16px;
+}
+#navbar a:hover{
+    color: aqua;
+}
+header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; 
+     width: 100%;
+     min-height: 500px;
+     background-image: url('1st.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+}
+     
+#header1{
+    display: block;
+    margin-bottom: 200px;
+    font-size: 20px;
+}
+#header1 h1{
+    font-family: 'Poppins';
+    font-size: 50px;
+ font-weight: bold;
+ color: rgb(126, 126, 212);
+ text-shadow: 2px 2px 5px rgba(106, 226, 95, 0.801);
+ 
+
+}
+#header1 h2{
+    font-family: 'Poppins';
+    color: rgb(126, 126, 212);
+    
+}
+#header1 p{
+    font-family: 'Poppins';
+    color: rgb(112, 27, 192);
+    letter-spacing: 1px;
+}
+/* header2---------------- */
+#header2{
+    display: block;
+     width: 100%;
+     min-height: 500px;
+     background-image: url('2nd.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     
+
+}
+   
+     
+#image{
+    display: flex;
+    padding: 20px;
+    background-color: yellowgreen;
+    width: 100%;
+    height: 100px; 
+    
+   padding-left: 600px;
+   
+  
+}
+
+#image img {
+    width: 50px;
+    height: 50px;
+    color: whitesmoke;
+    
+}
+#image h2{
+   margin: 2px;
+    font-size: 40px;
+    text-align: center;
+   
+   
+   
+} 
+/* 2nd header------------- */
+.texx{
+    display: block;
+    margin-top: 110px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Poppins';
+    
+}
+.texx h3{
+    font-size: 40px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+   
+
+}
+.texx p{
+    font-size: 15px;
+    color: aliceblue;
+    letter-spacing: 1px;
+}
+.btn{
+    font-size: 15px;
+    padding: 15px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   background-color: rgb(236, 39, 39);
+   color: whitesmoke;
+}
+.btn:hover{
+  background-color: rgb(155, 38, 38);
+}
+/* 3rd header ------------- */
+#header3{
+    display: block;
+    width: 100%;
+    min-height: 600px;
+    background-image: url('austin-neill-kd5OtJ-ubIE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#vide{
+    text-align: center;
+    height: 80px;
+    font-family: 'Poppins';
+    font-size: 40px;
+    background-color: aqua;
+    line-height: 80px;
+    color: rgb(59, 17, 136);
+}
+.third-header{
+    display: block;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 150px;
+}
+.text2{
+    font-size: 35px;
+    font-family: 'Poppins';
+    margin: 20px;
+    color: rgb(169, 233, 174);
+    
+}
+.third-header p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(209, 223, 160);
+
+}
+.btn2{
+    font-size: 15px;
+    padding: 15px;
+   margin-top: 10px;
+   border-radius: 5px;
+   background-color: rgb(61, 31, 197);
+   color: whitesmoke;
+}
+.btn2:hover{
+    background-color: rgb(117, 81, 245);
+}
+ /* header4 overview */
+ .header4{
+    background-image: url("girl\ mu.jpg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 32rem;
+ }
+ .overview_text{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins';
+    padding-top: 150px;
+
+ }
+.frist_text{
+    font-family: 'Poppins';
+    color: aliceblue;
+    text-shadow: 2px 2px 5px rgb(224, 131, 24);
+    font-size: 40px;
+}
+.last{
+    font-family: 'Poppins';
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+
+
+/* Gift-card style ---------------- */
+.wrapper{
+    background-color: rgb(238, 196, 255);
+    width: 100%;
+    height: 32rem;
+
+}
+.ima_sz{
+    float: left;
+    width: 40%;
+
+}
+.gift_card{
+    position: absolute;
+   padding: 30px;
+}
+.card_text{
+    font-size: 50px;
+    font-family: 'Poppins';
+}
+.textt{
+   padding-top: 100px;
+   font-family: 'Poppins';
+   color: rgb(103, 57, 209);
+   font-size: 30px;
+   
+}
+.para{
+    padding-top: 20px;
+    font-family: 'Poppins';
+    color: rgb(18, 18, 19);
+}
+.last_txttt{
+   padding-top: 20px;
+   font-family: 'Poppins';
+}
+.icon{
+    display: flex;
+}
+.icon img{
+    width: 5%;
+}
+ 
+.icon h3{
+    padding-top: 8px;
+}
+/* footer heading  */
+.background{
+    background-color: rgb(54, 47, 47);
+    width: 100%;
+    height: 15rem;
+}
+.all_footer{
+    margin-left: 20px;
+    display: flex;
+    padding: 40px;
+    font-size: 15px;
+    color: whitesmoke;
+    justify-content: space-between;
+   
+}
+.all_footer p{
+    margin-top: 8px;
+    letter-spacing: 1px;
+    color: rgb(130, 235, 191);
+   
+}
+.A{
+    padding: 10px;
+    border-bottom: 1px solid rgb(146, 134, 134);
+   
+
+}
+.B{
+    padding: 10px;
+    border-bottom: 1px solid rgb(146, 134, 134);
+   
+}
+.C{
+    padding: 10px;
+    border-bottom: 1px solid rgb(146, 134, 134);
+   
+}
+.D{
+    padding: 10px;
+    border-bottom: 1px solid rgb(146, 134, 134);
+    
+}
+.footer_frist{
+    letter-spacing: 1px;
+}
+.footer_second{
+    letter-spacing: 1px;
+}
+.footer_third{
+    letter-spacing: 1px;
+}
+.footer_four{
+    letter-spacing: 1px;
+}
+/* copyrite---------- */
+.copy_write{
+    background-color: rgb(231, 208, 208);
+    width: 100%;
+    height: 4rem;
+}
+.copy_write h2{
+    text-align: center;
+    color: rgb(46, 42, 42);
+    font-size: 12px;
+    line-height: 4rem ;
+   /* font-family: 'Poppins'; */
+   font-family: sans-serif;
+
+}
+.copy{
+    width:20px;
+    height: 20px;
+    color: white;
+    padding: 1px;
+    
+
+}
+
